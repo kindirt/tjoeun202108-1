@@ -7,7 +7,11 @@ public class StudentTest {
 		//    "add index    "commit"         "put"  
 		
 		Student st = new Student("하하",40);
-		
+		System.out.println(st + "!!!!");
 		System.out.println(st);
+		
+		Student st1 = new Student("하하하하",40);
+		System.out.println(st1 + "!!!!");
+		System.out.println(st1);
 	}
 }
